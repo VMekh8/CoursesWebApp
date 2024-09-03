@@ -1,6 +1,5 @@
 ﻿using CoursesWebApp.Domain.Entities.ValueObjects;
 using CSharpFunctionalExtensions;
-using System;
 
 namespace CoursesWebApp.Domain.Entities
 {
@@ -12,12 +11,12 @@ namespace CoursesWebApp.Domain.Entities
         public string? ImageURL { get; private set; } = string.Empty;
         public List<EnrollmentEntity> Enrollments { get; set; } = [];
 
-        private StudentEntity(User users, string email, string passwordHash, string? imageURL)
+        private StudentEntity(User UserProp, string Email, string PasswordHash, string? ImageURL)
         {
-            UserProp = users;   
-            Email = email;
-            PasswordHash = passwordHash;
-            ImageURL = imageURL;
+            this.UserProp = UserProp;   
+            this.Email = Email;
+            this.PasswordHash = PasswordHash;
+            this.ImageURL = ImageURL;
         }
 
         public static Result<StudentEntity> Create(User user, string email, string pass, string? imageUrl)
@@ -42,10 +41,10 @@ namespace CoursesWebApp.Domain.Entities
             email.Trim();
 
             return new StudentEntity(
-                user, 
-                email,
-                pass,
-                imageUrl
+                UserProp: user,
+                Email: email,
+                PasswordHash: pass,
+                ImageURL: imageUrl
                 );
 
         }
