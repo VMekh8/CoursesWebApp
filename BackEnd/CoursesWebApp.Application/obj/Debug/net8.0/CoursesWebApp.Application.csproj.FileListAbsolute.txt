@@ -1,0 +1,15 @@
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\bin\Debug\net8.0\CoursesWebApp.Application.deps.json
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\bin\Debug\net8.0\CoursesWebApp.Application.runtimeconfig.json
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\bin\Debug\net8.0\CoursesWebApp.Application.dll
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\bin\Debug\net8.0\CoursesWebApp.Application.pdb
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.csproj.AssemblyReference.cache
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.AssemblyInfoInputs.cache
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.AssemblyInfo.cs
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.csproj.CoreCompileInputs.cache
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.sourcelink.json
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.dll
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\refint\CoursesWebApp.Application.dll
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.pdb
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.genruntimeconfig.cache
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\ref\CoursesWebApp.Application.dll
