@@ -29,21 +29,19 @@ namespace CoursesWebApp.Domain.Entities
             url.Trim();
 
             if (title.Length > 200)
-                return Result.Failure<NewsEntity>("Title can`t be longer, than 200 symbol`s");
+                return Result.Failure<NewsEntity>("Title can`t be longer, than 200 characters");
 
             if (desc.Length > 1000)
-                return Result.Failure<NewsEntity>("Description can`t be longer, than 1000 symbol`s");
+                return Result.Failure<NewsEntity>("Description can`t be longer, than 1000 characters");
 
             if (Uri.IsWellFormedUriString(url, UriKind.Absolute))
                 return Result.Failure<NewsEntity>("Invalid URL format");
 
-            var news = new NewsEntity(
+            return Result.Success(new NewsEntity(
                 Title: title,
                 Description: desc,
                 ImageURL: url
-                );
-
-            return Result.Success(news);
+                ));
 
         }
 

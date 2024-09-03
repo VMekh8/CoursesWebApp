@@ -3,11 +3,17 @@
   "WorkspaceRootPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A4FF6EC-E520-41DF-A87B-68D455375081}|..\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.domain\\entities\\valueobjects\\abstract\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A4FF6EC-E520-41DF-A87B-68D455375081}|..\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.domain\\entities\\valueobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A4FF6EC-E520-41DF-A87B-68D455375081}|..\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.domain\\entities\\newsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C72E10B6-60A6-4F0C-89FD-1D00AD2E75C1}|CoursesWebApp.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp\\courseswebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C72E10B6-60A6-4F0C-89FD-1D00AD2E75C1}|CoursesWebApp.csproj|solutionrelative:courseswebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A4FF6EC-E520-41DF-A87B-68D455375081}|..\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.domain\\entities\\valueobjects\\abstract\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A4FF6EC-E520-41DF-A87B-68D455375081}|..\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.domain\\courseswebapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -37,24 +43,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\Entities\\ValueObjects\\User.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Domain\\Entities\\ValueObjects\\User.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\Entities\\ValueObjects\\User.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Domain\\Entities\\ValueObjects\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T15:40:49.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewsEntity.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\Entities\\NewsEntity.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Domain\\Entities\\NewsEntity.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\Entities\\NewsEntity.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Domain\\Entities\\NewsEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:54:32.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ValueObject.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\Entities\\ValueObjects\\Abstract\\ValueObject.cs",
               "RelativeDocumentMoniker": "..\\CoursesWebApp.Domain\\Entities\\ValueObjects\\Abstract\\ValueObject.cs",
               "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\Entities\\ValueObjects\\Abstract\\ValueObject.cs",
               "RelativeToolTip": "..\\CoursesWebApp.Domain\\Entities\\ValueObjects\\Abstract\\ValueObject.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T14:46:13.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CoursesWebApp",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.csproj",
               "RelativeDocumentMoniker": "CoursesWebApp.csproj",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.csproj",
-              "RelativeToolTip": "CoursesWebApp.csproj",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.csproj*",
+              "RelativeToolTip": "CoursesWebApp.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-09-03T14:44:10.309Z",
@@ -62,12 +94,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CoursesWebApp.Domain",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj",
               "RelativeDocumentMoniker": "..\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj",
-              "RelativeToolTip": "..\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj*",
+              "RelativeToolTip": "..\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-09-03T14:33:13.274Z",
@@ -79,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -92,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Dockerfile",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -105,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CoursesWebApp.http",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.http",
               "RelativeDocumentMoniker": "CoursesWebApp.http",
