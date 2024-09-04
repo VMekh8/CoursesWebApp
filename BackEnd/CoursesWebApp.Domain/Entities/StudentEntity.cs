@@ -5,10 +5,10 @@ namespace CoursesWebApp.Domain.Entities
 {
     public class StudentEntity : Entity
     {
-        public User UserProp { get; private set; }
-        public string Email { get; private set; } = string.Empty;
-        public string PasswordHash { get; private set; } = string.Empty;
-        public string? ImageURL { get; private set; } = string.Empty;
+        public User UserProp { get; set; }
+        public string Email { get; set; } = string.Empty;
+        public string PasswordHash { get; set; } = string.Empty;
+        public string? ImageURL { get; set; } = string.Empty;
         public List<EnrollmentEntity> Enrollments { get; set; } = [];
 
         private StudentEntity(User UserProp, string Email, string PasswordHash, string? ImageURL)
@@ -23,16 +23,7 @@ namespace CoursesWebApp.Domain.Entities
         {
             if (user is null) 
                 return Result.Failure<StudentEntity>("User param`s cannot be null");
-
-            if (string.IsNullOrWhiteSpace(user.FirstName) || string.IsNullOrWhiteSpace(user.LastName))
-                return Result.Failure<StudentEntity>("Firstname and lastname fields cannot be null");
-
-            if (user.FirstName.Length > 150 || user.LastName.Length > 150)
-                return Result.Failure<StudentEntity>("Length of Firstname and Lastname fields cannot exceed, than 150 characters");
-
-            if (user.Age < 0) 
-                return Result.Failure<StudentEntity>("User`s age cannot be less than 0");
-
+        
             if (Uri.IsWellFormedUriString(imageUrl, UriKind.Absolute))
                 return Result.Failure<StudentEntity>("Invalid URL format");
 
