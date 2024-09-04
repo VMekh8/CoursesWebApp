@@ -1,5 +1,4 @@
 ﻿using CSharpFunctionalExtensions;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace CoursesWebApp.Domain.Entities
 {
@@ -12,7 +11,7 @@ namespace CoursesWebApp.Domain.Entities
         public List<TeacherEntity> Teachers { get; set; } = [];
         public decimal Price { get; private set; }
 
-        public CourseEntity(string Title, string Description, string ImageURL, decimal Price)
+        private CourseEntity(string Title, string Description, string ImageURL, decimal Price)
         {
             this.Title = Title;
             this.Description = Description;
