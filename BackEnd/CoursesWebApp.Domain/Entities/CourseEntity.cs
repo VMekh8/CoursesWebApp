@@ -4,12 +4,12 @@ namespace CoursesWebApp.Domain.Entities
 {
     public class CourseEntity : Entity
     {
-        public string Title { get; private set; } = string.Empty;
-        public string Description { get; private set; } = string.Empty;
-        public string ImageURL { get; private set; } = string.Empty;
+        public string Title { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public string ImageURL { get; set; } = string.Empty;
         public List<LessonEntity> Lessons { get; set; } = [];
         public List<TeacherEntity> Teachers { get; set; } = [];
-        public decimal Price { get; private set; }
+        public decimal Price { get; set; }
 
         private CourseEntity(string Title, string Description, string ImageURL, decimal Price)
         {

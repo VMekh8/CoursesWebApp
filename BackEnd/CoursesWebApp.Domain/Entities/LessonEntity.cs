@@ -2,11 +2,11 @@
 
 namespace CoursesWebApp.Domain.Entities
 {
-    public class LessonEntity
+    public class LessonEntity : Entity
     {
-        public string Title { get; private set; } = string.Empty;
-        public string LessonText { get; private set; } = string.Empty;
-        public string VideoURL { get; private set; } = string.Empty;
+        public string Title { get; set; } = string.Empty;
+        public string LessonText { get; set; } = string.Empty;
+        public string VideoURL { get; set; } = string.Empty;
         public CourseEntity? Course { get; set; }
 
         private LessonEntity(string Title, string LessonText, string VideoURL)
