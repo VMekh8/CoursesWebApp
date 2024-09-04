@@ -1,6 +1,8 @@
-﻿namespace CoursesWebApp.Domain.Entities
+﻿using CSharpFunctionalExtensions;
+
+namespace CoursesWebApp.Domain.Entities
 {
-    public class EnrollmentEntity
+    public class EnrollmentEntity : Entity
     {
         public StudentEntity Student { get; private set; }
 
