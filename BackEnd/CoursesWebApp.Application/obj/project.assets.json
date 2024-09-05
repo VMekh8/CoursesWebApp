@@ -888,6 +888,21 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "CoursesWebApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CSharpFunctionalExtensions": "2.42.5",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4"
+        },
+        "compile": {
+          "bin/placeholder/CoursesWebApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoursesWebApp.Domain.dll": {}
+        }
       }
     }
   },
@@ -2333,11 +2348,17 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CoursesWebApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CoursesWebApp.Domain/CoursesWebApp.Domain.csproj",
+      "msbuildProject": "../CoursesWebApp.Domain/CoursesWebApp.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "CSharpFunctionalExtensions >= 2.42.5",
+      "CoursesWebApp.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4"
@@ -2377,7 +2398,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj": {
+              "projectPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
