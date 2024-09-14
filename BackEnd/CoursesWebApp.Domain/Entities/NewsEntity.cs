@@ -1,4 +1,5 @@
-﻿using CSharpFunctionalExtensions;
+﻿using CoursesWebApp.Domain.Constants;
+using CSharpFunctionalExtensions;
 
 namespace CoursesWebApp.Domain.Entities
 {
@@ -28,10 +29,10 @@ namespace CoursesWebApp.Domain.Entities
             desc.Trim();
             url.Trim();
 
-            if (title.Length > 200)
+            if (title.Length > AppConstant.TITLE_MAX_VALUE)
                 return Result.Failure<NewsEntity>("Title can`t be longer, than 200 characters");
 
-            if (desc.Length > 1000)
+            if (desc.Length > AppConstant.DESCRIPTION_MAX_VALUE)
                 return Result.Failure<NewsEntity>("Description can`t be longer, than 1000 characters");
 
             if (Uri.IsWellFormedUriString(url, UriKind.Absolute))
@@ -44,6 +45,5 @@ namespace CoursesWebApp.Domain.Entities
                 ));
 
         }
-
     }
 }

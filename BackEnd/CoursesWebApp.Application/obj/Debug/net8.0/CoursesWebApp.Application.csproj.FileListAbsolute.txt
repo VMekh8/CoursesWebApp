@@ -13,3 +13,6 @@ F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\ref
 F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.pdb
 F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesWebApp.Application.genruntimeconfig.cache
 F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\ref\CoursesWebApp.Application.dll
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\bin\Debug\net8.0\CoursesWebApp.Domain.dll
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\bin\Debug\net8.0\CoursesWebApp.Domain.pdb
+F:\Projects\CoursesWebApp\BackEnd\CoursesWebApp.Application\obj\Debug\net8.0\CoursesW.6FF531F8.Up2Date

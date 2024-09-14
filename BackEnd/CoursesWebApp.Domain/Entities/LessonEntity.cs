@@ -1,4 +1,5 @@
-﻿using CSharpFunctionalExtensions;
+﻿using CoursesWebApp.Domain.Constants;
+using CSharpFunctionalExtensions;
 
 namespace CoursesWebApp.Domain.Entities
 {
@@ -18,7 +19,7 @@ namespace CoursesWebApp.Domain.Entities
 
         public static Result<LessonEntity> Create(string Title, string LessonText, string VideoURL)
         {
-            if (string.IsNullOrEmpty(Title) || Title.Length > 200)
+            if (string.IsNullOrEmpty(Title) || Title.Length > AppConstant.TITLE_MAX_VALUE)  
                 return Result.Failure<LessonEntity>("Title cannot be empty or exceed more than 200 characters");
 
             if (string.IsNullOrEmpty(LessonText))

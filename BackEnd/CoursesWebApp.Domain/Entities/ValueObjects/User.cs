@@ -1,14 +1,15 @@
-﻿using CSharpFunctionalExtensions;
+﻿using CoursesWebApp.Domain.Constants;
+using CSharpFunctionalExtensions;
 
 namespace CoursesWebApp.Domain.Entities.ValueObjects
 {
     public class User : Abstract.ValueObject
     {
-        public string FirstName { get; private set;} = string.Empty;
-        public string LastName { get; private set;} = string.Empty;
-        public int Age { get; private set; } = int.MinValue;
+        public string FirstName { get; private set;}
+        public string LastName { get; private set;}
+        public int Age { get; private set; }
 
-        public User(string FirstName, string LastName, int Age)
+        private User(string FirstName, string LastName, int Age)
         {
             this.FirstName = FirstName;
             this.LastName = LastName;
@@ -23,7 +24,7 @@ namespace CoursesWebApp.Domain.Entities.ValueObjects
             if (age < 0)
                 return Result.Failure<User>("A person`s age can`t be less than 0");
 
-            if (name.Length > 150 || surname.Length > 150)
+            if (name.Length > 150 || surname.Length > AppConstant.USER_MAX_VALUE)
                 return Result.Failure<User>("Length of Firstname and Lastname fields cannot exceed, than 150 characters");
 
             return new User(name, surname, age);
