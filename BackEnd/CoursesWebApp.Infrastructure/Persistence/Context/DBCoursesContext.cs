@@ -1,5 +1,4 @@
 ﻿using CoursesWebApp.Domain.Entities;
-using CSharpFunctionalExtensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -19,6 +18,7 @@ namespace CoursesWebApp.Infrastructure.Persistence.Context
         public DbSet<TeacherEntity> Teachers { get; set; }
         public DbSet<CourseEntity> Courses { get; set; }
         public DbSet<LessonEntity> Lessons { get; set; }
+        public DbSet<EnrollmentEntity> Enrollments { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
