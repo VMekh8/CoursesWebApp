@@ -4,6 +4,6 @@ namespace CoursesWebApp.Application.Abstract.Payment
 {
     public interface IPaymentRepository
     {
-        Task<PaymentResultModel> CreatePaymentIntentAsync(decimal price);
+        Task<PaymentResponseModel> CreatePaymentIntentAsync(decimal price);
     }
 }
