@@ -20,4 +20,8 @@
     <ProjectReference Include="..\CoursesWebApp.Domain\CoursesWebApp.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\" />
+  </ItemGroup>
+
 </Project>
