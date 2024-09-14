@@ -1,4 +1,5 @@
-﻿using CoursesWebApp.Domain.Entities.ValueObjects;
+﻿using CoursesWebApp.Domain.Constants;
+using CoursesWebApp.Domain.Entities.ValueObjects;
 using CSharpFunctionalExtensions;
 
 namespace CoursesWebApp.Domain.Entities
@@ -26,7 +27,7 @@ namespace CoursesWebApp.Domain.Entities
             if (user is null)
                 return Result.Failure<TeacherEntity>("User property`s cannot be null");
 
-            if (string.IsNullOrEmpty(about) || about.Length > 200)
+            if (string.IsNullOrEmpty(about) || about.Length > AppConstant.DESCRIPTION_MAX_VALUE)
                 return Result.Failure<TeacherEntity>("About Teacher field error");
 
             if (string.IsNullOrWhiteSpace(email))

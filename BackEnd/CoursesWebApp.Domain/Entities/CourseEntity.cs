@@ -1,4 +1,5 @@
-﻿using CSharpFunctionalExtensions;
+﻿using CoursesWebApp.Domain.Constants;
+using CSharpFunctionalExtensions;
 
 namespace CoursesWebApp.Domain.Entities
 {
@@ -24,7 +25,7 @@ namespace CoursesWebApp.Domain.Entities
             if (string.IsNullOrEmpty(Title) || string.IsNullOrEmpty(Description))
                 return Result.Failure<CourseEntity>("Title and Description cannot be empty");
 
-            if (Title.Length > 200 || Description.Length > 1000)
+            if (Title.Length > AppConstant.TITLE_MAX_VALUE || Description.Length > AppConstant.DESCRIPTION_MAX_VALUE)
                 return Result.Failure<CourseEntity>("the title or description fields have exceeded the character limit");
 
             if (Price < 0)
