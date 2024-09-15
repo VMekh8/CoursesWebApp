@@ -1,4 +1,5 @@
 ﻿using CoursesWebApp.Domain.Entities;
+using CoursesWebApp.Infrastructure.Persistence.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -8,10 +9,8 @@ namespace CoursesWebApp.Infrastructure.Persistence.Context
     {
         private readonly IConfiguration _configuration;
 
-        public DBCoursesContext(IConfiguration configuration)
-        {
-            _configuration = configuration;
-        }
+        public DBCoursesContext(IConfiguration configuration, DbContextOptions<DBCoursesContext> options)
+            : base(options) => _configuration = configuration;
 
         public DbSet<NewsEntity> News { get; set; }
         public DbSet<StudentEntity> Students { get; set; }
@@ -28,7 +27,12 @@ namespace CoursesWebApp.Infrastructure.Persistence.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            throw new NotImplementedException();
+            modelBuilder.ApplyConfiguration(new CourseConfiguration());
+            modelBuilder.ApplyConfiguration(new TeacherConfiguration());
+            modelBuilder.ApplyConfiguration(new LessonConfiguration());
+            modelBuilder.ApplyConfiguration(new StudentConfiguration());
+            modelBuilder.ApplyConfiguration(new NewsConfiguration());
+            modelBuilder.ApplyConfiguration(new EnrollmentConfiguration());
         }
     }
 }

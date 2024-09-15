@@ -15,3 +15,6 @@ appsettings.json
 /BackEnd/CoursesWebApp.Domain/bin
 /BackEnd/CoursesWebApp.Domain/obj
 /BackEnd/CoursesWebApp.Infrastructure/obj
+/BackEnd/CoursesWebApp.Application/obj
+/BackEnd/CoursesWebApp.Domain/obj
+/BackEnd/CoursesWebApp.Infrastructure/obj
