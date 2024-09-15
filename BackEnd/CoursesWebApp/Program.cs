@@ -10,8 +10,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+ILoggerFactory Logger = LoggerFactory.Create(log =>
+{
+    log.AddConsole();
+    log.AddDebug();
+});
+
 builder.Services.AddDbContext<DBCoursesContext>(opt =>
-    opt.UseNpgsql(builder.Configuration.GetConnectionString("connectionString")));
+{
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("connectionString"));
+    opt.UseLoggerFactory(Logger);
+    opt.EnableSensitiveDataLogging();
+});
 
 var app = builder.Build();
 

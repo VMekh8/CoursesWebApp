@@ -9,8 +9,6 @@
       "CoursesWebApp/1.0.0": {
         "dependencies": {
           "CSharpFunctionalExtensions": "2.42.5",
-          "CoursesWebApp.Application": "1.0.0",
-          "CoursesWebApp.Domain": "1.0.0",
           "CoursesWebApp.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.Design": "8.0.8",

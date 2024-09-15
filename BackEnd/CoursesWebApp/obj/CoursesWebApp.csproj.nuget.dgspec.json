@@ -330,12 +330,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj": {
-                "projectPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj"
-              },
-              "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj": {
-                "projectPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj"
-              },
               "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\CoursesWebApp.Infrastructure.csproj": {
                 "projectPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\CoursesWebApp.Infrastructure.csproj"
               }

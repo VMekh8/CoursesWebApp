@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WqWx3TKpj1Y=",
+  "dgSpecHash": "NMx8HcBk5+s=",
   "success": true,
-  "projectFilePath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.csproj",
+  "projectFilePath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vitaliy Mekh\\.nuget\\packages\\csharpfunctionalextensions\\2.42.5\\csharpfunctionalextensions.2.42.5.nupkg.sha512",
     "C:\\Users\\Vitaliy Mekh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,16 +1,12 @@
 ﻿using CoursesWebApp.Domain.Entities;
 using CoursesWebApp.Infrastructure.Persistence.Configuration;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
 
 namespace CoursesWebApp.Infrastructure.Persistence.Context
 {
     public class DBCoursesContext : DbContext
     {
-        private readonly IConfiguration _configuration;
-
-        public DBCoursesContext(IConfiguration configuration, DbContextOptions<DBCoursesContext> options) : base(options) => _configuration = configuration;
+        public DBCoursesContext(DbContextOptions<DBCoursesContext> options) : base(options) { }
 
         public DbSet<NewsEntity> News { get; set; }
         public DbSet<StudentEntity> Students { get; set; }
@@ -18,14 +14,6 @@ namespace CoursesWebApp.Infrastructure.Persistence.Context
         public DbSet<CourseEntity> Courses { get; set; }
         public DbSet<LessonEntity> Lessons { get; set; }
         public DbSet<EnrollmentEntity> Enrollments { get; set; }
-
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseNpgsql(_configuration.GetConnectionString("connectionString"))
-                .UseLoggerFactory(CreateLoggerFactory())
-                .EnableSensitiveDataLogging();
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -36,9 +24,5 @@ namespace CoursesWebApp.Infrastructure.Persistence.Context
             modelBuilder.ApplyConfiguration(new NewsConfiguration());
             modelBuilder.ApplyConfiguration(new EnrollmentConfiguration());
         }
-
-        public ILoggerFactory CreateLoggerFactory() =>
-            LoggerFactory.Create(builder => { builder.AddConsole(); });
-            
     }
 }

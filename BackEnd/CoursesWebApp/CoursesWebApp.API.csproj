@@ -31,8 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CoursesWebApp.Application\CoursesWebApp.Application.csproj" />
-    <ProjectReference Include="..\CoursesWebApp.Domain\CoursesWebApp.Domain.csproj" />
     <ProjectReference Include="..\CoursesWebApp.Infrastructure\CoursesWebApp.Infrastructure.csproj" />
   </ItemGroup>
 

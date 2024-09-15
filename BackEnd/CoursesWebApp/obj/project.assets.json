@@ -3197,8 +3197,6 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "CSharpFunctionalExtensions >= 2.42.5",
-      "CoursesWebApp.Application >= 1.0.0",
-      "CoursesWebApp.Domain >= 1.0.0",
       "CoursesWebApp.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
@@ -3217,9 +3215,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.csproj",
-      "projectName": "CoursesWebApp",
-      "projectPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.csproj",
+      "projectUniqueName": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.API.csproj",
+      "projectName": "CoursesWebApp.API",
+      "projectPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\CoursesWebApp.API.csproj",
       "packagesPath": "C:\\Users\\Vitaliy Mekh\\.nuget\\packages\\",
       "outputPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\obj\\",
       "projectStyle": "PackageReference",
@@ -3244,12 +3242,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj": {
-              "projectPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj"
-            },
-            "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj": {
-              "projectPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Domain\\CoursesWebApp.Domain.csproj"
-            },
             "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\CoursesWebApp.Infrastructure.csproj": {
               "projectPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\CoursesWebApp.Infrastructure.csproj"
             }
