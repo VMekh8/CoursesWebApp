@@ -18,7 +18,7 @@ ILoggerFactory Logger = LoggerFactory.Create(log =>
 
 builder.Services.AddDbContext<DBCoursesContext>(opt =>
 {
-    opt.UseNpgsql(builder.Configuration.GetConnectionString("connectionString"));
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
     opt.UseLoggerFactory(Logger);
     opt.EnableSensitiveDataLogging();
 });

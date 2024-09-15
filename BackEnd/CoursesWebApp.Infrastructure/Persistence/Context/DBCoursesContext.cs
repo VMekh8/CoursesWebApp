@@ -6,7 +6,9 @@ namespace CoursesWebApp.Infrastructure.Persistence.Context
 {
     public class DBCoursesContext : DbContext
     {
-        public DBCoursesContext(DbContextOptions<DBCoursesContext> options) : base(options) { }
+        public DBCoursesContext(DbContextOptions<DBCoursesContext> options) : base(options)
+        {
+        }
 
         public DbSet<NewsEntity> News { get; set; }
         public DbSet<StudentEntity> Students { get; set; }
