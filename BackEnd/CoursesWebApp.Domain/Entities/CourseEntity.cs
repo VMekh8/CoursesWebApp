@@ -13,7 +13,8 @@ namespace CoursesWebApp.Domain.Entities
         public List<TeacherEntity> Teachers { get; set; } = [];
         public List<EnrollmentEntity> Enrollments { get; set; } = [];
 
-
+        private CourseEntity() {}
+        
         private CourseEntity(string Title, string Description, string ImageURL, decimal Price)
         {
             this.Title = Title;

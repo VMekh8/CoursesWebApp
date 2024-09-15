@@ -10,8 +10,7 @@ namespace CoursesWebApp.Infrastructure.Persistence.Context
     {
         private readonly IConfiguration _configuration;
 
-        public DBCoursesContext(IConfiguration configuration, DbContextOptions<DBCoursesContext> options)
-            : base(options) => _configuration = configuration;
+        public DBCoursesContext(IConfiguration configuration, DbContextOptions<DBCoursesContext> options) : base(options) => _configuration = configuration;
 
         public DbSet<NewsEntity> News { get; set; }
         public DbSet<StudentEntity> Students { get; set; }

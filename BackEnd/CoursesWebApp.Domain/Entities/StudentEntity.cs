@@ -11,6 +11,8 @@ namespace CoursesWebApp.Domain.Entities
         public string? ImageURL { get; set; } = string.Empty;
         public List<EnrollmentEntity> Enrollments { get; set; } = [];
 
+        private StudentEntity() {}
+
         private StudentEntity(User UserProp, string Email, string PasswordHash, string? ImageURL)
         {
             this.UserProp = UserProp;   

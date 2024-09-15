@@ -12,6 +12,10 @@
   <ItemGroup>
     <PackageReference Include="CSharpFunctionalExtensions" Version="2.42.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -24,6 +28,12 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoursesWebApp.Application\CoursesWebApp.Application.csproj" />
+    <ProjectReference Include="..\CoursesWebApp.Domain\CoursesWebApp.Domain.csproj" />
+    <ProjectReference Include="..\CoursesWebApp.Infrastructure\CoursesWebApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

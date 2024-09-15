@@ -13,6 +13,8 @@ namespace CoursesWebApp.Domain.Entities
         public string ImageURL { get; set; } = string.Empty;
         public List<CourseEntity> Courses { get; set; }
 
+        private TeacherEntity() {}
+
         private TeacherEntity(User UserProp, string AboutTeacher, string Email, string PasswordHash, string ImageURL)
         {
             this.UserProp = UserProp;

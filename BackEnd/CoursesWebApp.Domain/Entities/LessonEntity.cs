@@ -10,6 +10,8 @@ namespace CoursesWebApp.Domain.Entities
         public string VideoURL { get; set; } = string.Empty;
         public CourseEntity? Course { get; set; }
 
+        private LessonEntity() {}
+
         private LessonEntity(string Title, string LessonText, string VideoURL)
         {
             this.Title = Title;

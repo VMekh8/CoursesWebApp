@@ -8,6 +8,8 @@ namespace CoursesWebApp.Domain.Entities
 
         public CourseEntity Course { get; set; }
 
+        private EnrollmentEntity() {}
+
         public EnrollmentEntity(StudentEntity student, CourseEntity course)
         {
             Student = student;
