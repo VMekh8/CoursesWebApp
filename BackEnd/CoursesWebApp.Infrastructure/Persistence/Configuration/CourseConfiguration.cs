@@ -27,5 +27,10 @@ public class CourseConfiguration : IEntityTypeConfiguration<CourseEntity>
 
         builder.Property(c => c.Price)
             .IsRequired();
+
+        builder.HasMany(c => c.Enrollments)
+            .WithOne(e => e.Course)
+            .HasForeignKey("CourseId");
+
     }
 }
