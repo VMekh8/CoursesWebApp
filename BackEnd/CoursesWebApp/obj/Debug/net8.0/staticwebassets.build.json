@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "hizuNO2FzMImLScPLCp1L5lkAzAwSJBGGnS1w0/XPTc=",
-  "Source": "CoursesWebApp",
-  "BasePath": "_content/CoursesWebApp",
+  "Hash": "r7Yup/kH7s6YVgQn3YtFL6klWfZobD0Knjt0rt40gjo=",
+  "Source": "CoursesWebApp.API",
+  "BasePath": "_content/CoursesWebApp.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -40,5 +40,9 @@ public class StudentConfiguration : IEntityTypeConfiguration<StudentEntity>
         builder.Property(s => s.ImageURL)
             .IsRequired();
 
+        builder.HasMany(s => s.Enrollments)
+            .WithOne(e => e.Student)
+            .HasForeignKey("StudentId");
+
     }
 }

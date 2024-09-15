@@ -10,3 +10,11 @@ BackEnd/CoursesWebApp/.vs/CoursesWebApp/FileContentIndex/9a5848b6-d8e4-4870-8a66
 /BackEnd/CoursesWebApp/obj/Debug
 BackEnd/CoursesWebApp/appsettings.json
 appsettings.json
+/BackEnd/CoursesWebApp.Application/bin
+/BackEnd/CoursesWebApp.Application/obj
+/BackEnd/CoursesWebApp.Domain/bin
+/BackEnd/CoursesWebApp.Domain/obj
+/BackEnd/CoursesWebApp.Infrastructure/obj
+/BackEnd/CoursesWebApp.Application/obj
+/BackEnd/CoursesWebApp.Domain/obj
+/BackEnd/CoursesWebApp.Infrastructure/obj

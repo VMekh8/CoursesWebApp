@@ -9,6 +9,8 @@ namespace CoursesWebApp.Domain.Entities
         public string Description { get; set; } = string.Empty;
         public string ImageURL { get; set; } = string.Empty;
 
+        private NewsEntity() {}
+
         private NewsEntity(string Title, string Description, string ImageURL)
         {
             this.Title = Title;

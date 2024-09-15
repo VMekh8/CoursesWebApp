@@ -8,10 +8,13 @@ namespace CoursesWebApp.Domain.Entities
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public string ImageURL { get; set; } = string.Empty;
+        public decimal Price { get; set; }
         public List<LessonEntity> Lessons { get; set; } = [];
         public List<TeacherEntity> Teachers { get; set; } = [];
-        public decimal Price { get; set; }
+        public List<EnrollmentEntity> Enrollments { get; set; } = [];
 
+        private CourseEntity() {}
+        
         private CourseEntity(string Title, string Description, string ImageURL, decimal Price)
         {
             this.Title = Title;

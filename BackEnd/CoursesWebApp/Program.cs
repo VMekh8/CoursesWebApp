@@ -1,3 +1,6 @@
+using CoursesWebApp.Infrastructure.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,19 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+ILoggerFactory Logger = LoggerFactory.Create(log =>
+{
+    log.AddConsole();
+    log.AddDebug();
+});
+
+builder.Services.AddDbContext<DBCoursesContext>(opt =>
+{
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+    opt.UseLoggerFactory(Logger);
+    opt.EnableSensitiveDataLogging();
+});
 
 var app = builder.Build();
 
