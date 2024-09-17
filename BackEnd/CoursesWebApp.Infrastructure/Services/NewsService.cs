@@ -5,38 +5,44 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CoursesWebApp.Infrastructure.Services
 {
-    public class NewsService : IRepository<NewsEntity>, IReadOnlyRepository<NewsEntity>
+    public class NewsService(DBCoursesContext context) : IRepository<NewsEntity>, IReadOnlyRepository<NewsEntity>
     {
-        private readonly DBCoursesContext _context;
+        public async Task CreateAsync(NewsEntity entity)
+        {
+            await context.News.AddAsync(entity);
 
-        public NewsService(DBCoursesContext context) =>
-            _context = context;
+            await context.SaveChangesAsync();
+        }
 
-        public async Task CreateAsync(NewsEntity entity) =>
-             await _context.News.AddAsync(entity);
-        
-
-        public async Task UpdateAsync(NewsEntity entity) =>
-            await _context.News
+        public async Task UpdateAsync(NewsEntity entity)
+        {
+            await context.News
                 .Where(n => n.Id == entity.Id)
                 .ExecuteUpdateAsync(e =>
                     e.SetProperty(u => u.Title, entity.Title)
                     .SetProperty(u => u.Description, entity.Description)
                     .SetProperty(u => u.ImageURL, entity.ImageURL));
 
-        public async Task DeleteAsync(long id) =>
-            await _context.News
+            await context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(long id)
+        {
+            await context.News
                 .Where(n => n.Id == id)
                 .ExecuteDeleteAsync();
 
+            await context.SaveChangesAsync();
+        }
+        
         public async Task<IEnumerable<NewsEntity>> GetValuesAsync() =>
-            await _context.News
+            await context.News
                 .AsNoTracking()
                 .ToListAsync();
         
 
         public async Task<NewsEntity?> GetByIdAsync(long id) => 
-            await _context.News
+            await context.News
                 .AsNoTracking()
                 .FirstOrDefaultAsync(n => n.Id == id);
     }
