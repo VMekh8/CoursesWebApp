@@ -3,10 +3,13 @@
   "WorkspaceRootPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4267EFE-6DF6-47B6-BDCB-2257C5E3D045}|..\\CoursesWebApp.Infrastructure\\CoursesWebApp.Infrastructure.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.infrastructure\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4267EFE-6DF6-47B6-BDCB-2257C5E3D045}|..\\CoursesWebApp.Infrastructure\\CoursesWebApp.Infrastructure.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.infrastructure\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\abstract\\crud\\irepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4267EFE-6DF6-47B6-BDCB-2257C5E3D045}|..\\CoursesWebApp.Infrastructure\\CoursesWebApp.Infrastructure.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.infrastructure\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4267EFE-6DF6-47B6-BDCB-2257C5E3D045}|..\\CoursesWebApp.Infrastructure\\CoursesWebApp.Infrastructure.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.infrastructure\\persistence\\context\\dbcoursescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -30,47 +33,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\Abstract\\CRUD\\IRepository.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\Abstract\\CRUD\\IRepository.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\Abstract\\CRUD\\IRepository.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\Abstract\\CRUD\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T08:29:03.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IReadOnlyRepository.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\Abstract\\CRUD\\IReadOnlyRepository.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\Abstract\\CRUD\\IReadOnlyRepository.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\Abstract\\CRUD\\IReadOnlyRepository.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\Abstract\\CRUD\\IReadOnlyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T08:26:11.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewsService.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Services\\NewsService.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Services\\NewsService.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Services\\NewsService.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Services\\NewsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T08:15:37.857Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -89,7 +53,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Services\\StudentService.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Services\\StudentService.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:34:54.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\Abstract\\CRUD\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\Abstract\\CRUD\\IRepository.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\Abstract\\CRUD\\IRepository.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Application\\Abstract\\CRUD\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:29:03.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IReadOnlyRepository.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\Abstract\\CRUD\\IReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\Abstract\\CRUD\\IReadOnlyRepository.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\Abstract\\CRUD\\IReadOnlyRepository.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Application\\Abstract\\CRUD\\IReadOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:26:11.266Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "NewsService.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Services\\NewsService.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Services\\NewsService.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Services\\NewsService.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Services\\NewsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:15:37.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DBCoursesContext.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Persistence\\Context\\DBCoursesContext.cs",
               "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Persistence\\Context\\DBCoursesContext.cs",
@@ -97,12 +112,11 @@
               "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Persistence\\Context\\DBCoursesContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T20:00:58.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T20:00:58.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -110,12 +124,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T19:58:32.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T19:58:32.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -123,8 +136,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:06:07.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T14:06:07.191Z"
             }
           ]
         }
