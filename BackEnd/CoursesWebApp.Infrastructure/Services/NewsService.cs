@@ -1,33 +1,49 @@
 ﻿using CoursesWebApp.Application.Abstract.CRUD;
 using CoursesWebApp.Domain.Entities;
+using CoursesWebApp.Infrastructure.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace CoursesWebApp.Infrastructure.Services
 {
-    public class NewsService : IRepository<NewsEntity>, IReadOnlyRepository<NewsEntity>
+    public class NewsService(DBCoursesContext context) : IRepository<NewsEntity>, IReadOnlyRepository<NewsEntity>
     {
-        public Task<NewsEntity> CreateAsync(NewsEntity entity)
+        public async Task CreateAsync(NewsEntity entity)
         {
-            throw new NotImplementedException();
+            await context.News.AddAsync(entity);
+
+            await context.SaveChangesAsync();
         }
 
-        public Task<NewsEntity> UpdateAsync(NewsEntity entity)
+        public async Task UpdateAsync(NewsEntity entity)
         {
-            throw new NotImplementedException();
+            await context.News
+                .Where(n => n.Id == entity.Id)
+                .ExecuteUpdateAsync(e =>
+                    e.SetProperty(u => u.Title, entity.Title)
+                    .SetProperty(u => u.Description, entity.Description)
+                    .SetProperty(u => u.ImageURL, entity.ImageURL));
+
+            await context.SaveChangesAsync();
         }
 
-        public Task<NewsEntity> DeleteAsync(long id)
+        public async Task DeleteAsync(long id)
         {
-            throw new NotImplementedException();
-        }
+            await context.News
+                .Where(n => n.Id == id)
+                .ExecuteDeleteAsync();
 
-        public Task<IEnumerable<NewsEntity>> GetValuesAsync()
-        {
-            throw new NotImplementedException();
+            await context.SaveChangesAsync();
         }
+        
+        public async Task<IEnumerable<NewsEntity>> GetValuesAsync() =>
+            await context.News
+                .AsNoTracking()
+                .ToListAsync();
+        
 
-        public Task<NewsEntity> GetByIdAsync(long id)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<NewsEntity?> GetByIdAsync(long id) => 
+            await context.News
+                .AsNoTracking()
+                .FirstOrDefaultAsync(n => n.Id == id);
     }
 }
