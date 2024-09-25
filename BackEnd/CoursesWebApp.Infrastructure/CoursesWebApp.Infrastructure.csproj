@@ -25,4 +25,10 @@
     <ProjectReference Include="..\CoursesWebApp.Application\CoursesWebApp.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Caching\Decorators\" />
+    <Folder Include="Caching\Abstract\" />
+    <Folder Include="Caching\RedisServices\" />
+  </ItemGroup>
+
 </Project>
