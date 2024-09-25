@@ -2,9 +2,11 @@
 
 public interface IRedisService<T> where T : class
 {
-    Task<T> GetAsync(string key);
+    Task<T> GetAsync(long key);
 
-    Task SetAsync(string key, T value, TimeSpan? expiration = null);
+    Task<IEnumerable<T>> GetAllAsync(string key);
 
-    Task RemoveAsync(string key);
+    Task SetAsync(long key, T value, TimeSpan? expiration = null);
+
+    Task RemoveAsync(long key);
 }
