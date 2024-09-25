@@ -2,7 +2,7 @@
 
 public interface IRedisService<T> where T : class
 {
-    Task<T> GetAsync(long key);
+    Task<T?> GetAsync(long key);
 
     Task<IEnumerable<T>> GetAllAsync(string key);
 

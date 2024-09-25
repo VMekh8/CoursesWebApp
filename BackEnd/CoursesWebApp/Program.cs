@@ -1,5 +1,6 @@
 using CoursesWebApp.Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,10 @@ builder.Services.AddDbContext<DBCoursesContext>(opt =>
     opt.UseLoggerFactory(Logger);
     opt.EnableSensitiveDataLogging();
 });
+
+
+builder.Services.AddSingleton<IConnectionMultiplexer>(
+    ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")));
 
 var app = builder.Build();
 
