@@ -41,6 +41,13 @@ namespace CoursesWebApp.Infrastructure.Caching.RedisServices
             await _redisDb.StringSetAsync(key.ToString(), jsonValue, expiration);
         }
 
+        public async Task SetListAsync(string key, IEnumerable<T> value, TimeSpan? expiration = null)
+        {
+            var jsonValue = JsonSerializer.Serialize(value);
+
+            await _redisDb.StringSetAsync(key, jsonValue, expiration);
+        }
+
         public async Task RemoveAsync(long key)
         {
             await _redisDb.KeyDeleteAsync(key.ToString());

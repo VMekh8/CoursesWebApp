@@ -8,5 +8,7 @@ public interface IRedisService<T> where T : class
 
     Task SetAsync(long key, T value, TimeSpan? expiration = null);
 
+    Task SetListAsync(string key, IEnumerable<T> value, TimeSpan? expiration = null);
+
     Task RemoveAsync(long key);
 }
