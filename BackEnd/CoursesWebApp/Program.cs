@@ -51,9 +51,15 @@ builder.Services.Decorate<IReadOnlyRepository<StudentEntity>, StudentDecorator>(
 builder.Services.AddScoped<IRepository<LessonEntity>, LessonService>();
 builder.Services.AddScoped<IReadOnlyRepository<LessonEntity>, LessonService>();
 
-builder.Services.Decorate<IRepository<LessonEntity>, LessonService>();
-builder.Services.Decorate<IReadOnlyRepository<LessonEntity>, LessonService>();
+builder.Services.Decorate<IRepository<LessonEntity>, LessonDecorator>();
+builder.Services.Decorate<IReadOnlyRepository<LessonEntity>, LessonDecorator>();
 
+
+builder.Services.AddScoped<IRepository<TeacherEntity>, TeacherService>();
+builder.Services.AddScoped<IReadOnlyRepository<TeacherEntity>, TeacherService>();
+
+builder.Services.Decorate<IRepository<TeacherEntity>, TeacherDecorator>();
+builder.Services.Decorate<IReadOnlyRepository<TeacherEntity>, TeacherDecorator>();
 
 var app = builder.Build();
 
