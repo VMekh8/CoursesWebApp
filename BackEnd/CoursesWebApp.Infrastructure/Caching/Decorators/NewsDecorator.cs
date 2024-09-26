@@ -30,9 +30,9 @@ public class NewsDecorator : IRepository<NewsEntity>, IReadOnlyRepository<NewsEn
         {
             await _redisServices.SetAsync(entity.Id, entity, TimeSpan.FromMinutes(5));
 
-            var cachedNewsList = await _redisServices.GetAllAsync(AllNewsKey);
+            var cachedNewsList = (await _redisServices.GetAllAsync(AllNewsKey)).ToList();
 
-            cachedNewsList = cachedNewsList.Append(entity);
+            cachedNewsList.Add(entity);
 
             await _redisServices.SetListAsync(AllNewsKey, cachedNewsList, TimeSpan.FromMinutes(30));
         }
@@ -40,7 +40,6 @@ public class NewsDecorator : IRepository<NewsEntity>, IReadOnlyRepository<NewsEn
         {
             Debug.WriteLine("Error with caching element");
             Debug.WriteLine(e.Message);
-            throw;
         }
     }
 
@@ -69,7 +68,7 @@ public class NewsDecorator : IRepository<NewsEntity>, IReadOnlyRepository<NewsEn
     {
         var cachedNews = await _redisServices.GetAllAsync(AllNewsKey);
 
-        if (cachedNews is null)
+        if (!cachedNews.Any())
         {
 
             var newsList = await _newsReadOnlyRepository.GetValuesAsync();
