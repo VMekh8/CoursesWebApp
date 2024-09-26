@@ -29,7 +29,6 @@ builder.Services.AddDbContext<DBCoursesContext>(opt =>
     opt.EnableSensitiveDataLogging();
 });
 
-
 builder.Services.AddSingleton<IConnectionMultiplexer>(
     ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")));
 
@@ -39,6 +38,15 @@ builder.Services.AddScoped<IRepository<NewsEntity>, NewsService>();
 builder.Services.AddScoped<IReadOnlyRepository<NewsEntity>, NewsService>();
 
 builder.Services.Decorate<IRepository<NewsEntity>, NewsDecorator>();
+builder.Services.Decorate<IReadOnlyRepository<NewsEntity>, NewsDecorator>();
+
+
+builder.Services.AddScoped<IRepository<StudentEntity>, StudentService>();
+builder.Services.AddScoped<IReadOnlyRepository<StudentEntity>, StudentService>();
+
+builder.Services.Decorate<IRepository<StudentEntity>, StudentDecorator>(); 
+builder.Services.Decorate<IReadOnlyRepository<StudentEntity>, StudentDecorator>(); 
+
 
 var app = builder.Build();
 

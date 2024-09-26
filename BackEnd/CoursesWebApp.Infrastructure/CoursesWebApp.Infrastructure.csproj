@@ -28,7 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Caching\Decorators\" />
     <Folder Include="Caching\Abstract\" />
   </ItemGroup>
 

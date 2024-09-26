@@ -24,8 +24,6 @@ public class NewsDecorator : IRepository<NewsEntity>, IReadOnlyRepository<NewsEn
         _newsReadOnlyRepository = newsReadOnlyRepository;
     }
 
-    
-
     public async Task CreateAsync(NewsEntity entity)
     {
         await _newsRepository.CreateAsync(entity);
