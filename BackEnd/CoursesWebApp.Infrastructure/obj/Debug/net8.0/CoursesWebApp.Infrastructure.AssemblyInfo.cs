@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoursesWebApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10a2b7256569260d8ae72edab758f04f1e752d45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cfc8464adac10de4802188a301451add3d1f921")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoursesWebApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoursesWebApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
