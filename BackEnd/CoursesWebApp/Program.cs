@@ -1,5 +1,11 @@
+using CoursesWebApp.Application.Abstract.CRUD;
+using CoursesWebApp.Domain.Entities;
+using CoursesWebApp.Infrastructure.Caching.Abstract;
+using CoursesWebApp.Infrastructure.Caching.Decorators;
 using CoursesWebApp.Infrastructure.Persistence.Context;
+using CoursesWebApp.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +28,38 @@ builder.Services.AddDbContext<DBCoursesContext>(opt =>
     opt.UseLoggerFactory(Logger);
     opt.EnableSensitiveDataLogging();
 });
+
+builder.Services.AddSingleton<IConnectionMultiplexer>(
+    ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")));
+
+builder.Services.AddScoped(typeof(IRedisService<>), typeof(IRedisService<>));
+
+builder.Services.AddScoped<IRepository<NewsEntity>, NewsService>();
+builder.Services.AddScoped<IReadOnlyRepository<NewsEntity>, NewsService>();
+
+builder.Services.Decorate<IRepository<NewsEntity>, NewsDecorator>();
+builder.Services.Decorate<IReadOnlyRepository<NewsEntity>, NewsDecorator>();
+
+
+builder.Services.AddScoped<IRepository<StudentEntity>, StudentService>();
+builder.Services.AddScoped<IReadOnlyRepository<StudentEntity>, StudentService>();
+
+builder.Services.Decorate<IRepository<StudentEntity>, StudentDecorator>(); 
+builder.Services.Decorate<IReadOnlyRepository<StudentEntity>, StudentDecorator>();
+
+
+builder.Services.AddScoped<IRepository<LessonEntity>, LessonService>();
+builder.Services.AddScoped<IReadOnlyRepository<LessonEntity>, LessonService>();
+
+builder.Services.Decorate<IRepository<LessonEntity>, LessonDecorator>();
+builder.Services.Decorate<IReadOnlyRepository<LessonEntity>, LessonDecorator>();
+
+
+builder.Services.AddScoped<IRepository<TeacherEntity>, TeacherService>();
+builder.Services.AddScoped<IReadOnlyRepository<TeacherEntity>, TeacherService>();
+
+builder.Services.Decorate<IRepository<TeacherEntity>, TeacherDecorator>();
+builder.Services.Decorate<IReadOnlyRepository<TeacherEntity>, TeacherDecorator>();
 
 var app = builder.Build();
 

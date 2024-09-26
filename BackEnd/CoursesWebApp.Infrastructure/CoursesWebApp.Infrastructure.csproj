@@ -19,10 +19,16 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
+    <PackageReference Include="Scrutor" Version="5.0.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.16" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CoursesWebApp.Application\CoursesWebApp.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Caching\Abstract\" />
   </ItemGroup>
 
 </Project>
