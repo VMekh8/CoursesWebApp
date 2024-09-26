@@ -54,7 +54,7 @@ public class NewsDecorator : IRepository<NewsEntity>, IReadOnlyRepository<NewsEn
 
             var newsList = await _newsReadOnlyRepository.GetValuesAsync();
 
-            if (newsList is not null)
+            if (!newsList.Any())
             {
                 await _redisServices.SetListAsync(AllNewsKey, newsList, TimeSpan.FromMinutes(30));
 

@@ -52,7 +52,7 @@ public class StudentDecorator : IRepository<StudentEntity>, IReadOnlyRepository<
 
             var studentsList = await _readOnlyRepository.GetValuesAsync();
 
-            if (studentsList is null)
+            if (!studentsList.Any())
             {
                 return Enumerable.Empty<StudentEntity>();
             }
