@@ -1,4 +1,9 @@
+using CoursesWebApp.Application.Abstract.CRUD;
+using CoursesWebApp.Domain.Entities;
+using CoursesWebApp.Infrastructure.Caching.Abstract;
+using CoursesWebApp.Infrastructure.Caching.Decorators;
 using CoursesWebApp.Infrastructure.Persistence.Context;
+using CoursesWebApp.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 
@@ -27,6 +32,13 @@ builder.Services.AddDbContext<DBCoursesContext>(opt =>
 
 builder.Services.AddSingleton<IConnectionMultiplexer>(
     ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")));
+
+builder.Services.AddScoped(typeof(IRedisService<>), typeof(IRedisService<>));
+
+builder.Services.AddScoped<IRepository<NewsEntity>, NewsService>();
+builder.Services.AddScoped<IReadOnlyRepository<NewsEntity>, NewsService>();
+
+builder.Services.Decorate<IRepository<NewsEntity>, NewsDecorator>();
 
 var app = builder.Build();
 

@@ -1,5 +1,4 @@
 ﻿using System.Text.Json;
-using System.Text.Json.Nodes;
 using CoursesWebApp.Infrastructure.Caching.Abstract;
 using StackExchange.Redis;
 
@@ -17,7 +16,9 @@ namespace CoursesWebApp.Infrastructure.Caching.RedisServices
         {
             var value = await _redisDb.StringGetAsync(key.ToString());
 
-            return value.IsNull ? null : JsonSerializer.Deserialize<T>(value);
+            return value.IsNull 
+                ? null 
+                : JsonSerializer.Deserialize<T>(value);
         }
 
         public async Task<IEnumerable<T>> GetAllAsync(string key)
@@ -31,7 +32,7 @@ namespace CoursesWebApp.Infrastructure.Caching.RedisServices
 
             return hashEntries.Select(entry =>
                 JsonSerializer.Deserialize<T>(entry.Value))
-                .ToList();
+                .AsEnumerable();
         }
 
         public async Task SetAsync(long key, T value, TimeSpan? expiration = null)
