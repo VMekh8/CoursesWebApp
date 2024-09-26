@@ -1,4 +1,6 @@
-﻿using System.Text.Json;
+﻿using System.Diagnostics;
+using System.Text.Json;
+using CoursesWebApp.Domain.Entities;
 using CoursesWebApp.Infrastructure.Caching.Abstract;
 using StackExchange.Redis;
 
@@ -46,6 +48,25 @@ namespace CoursesWebApp.Infrastructure.Caching.RedisServices
             var jsonValue = JsonSerializer.Serialize(value);
 
             await _redisDb.StringSetAsync(key, jsonValue, expiration);
+        }
+
+        public async Task UpdateCacheAsync(long id, T entity, string constKey)
+        {
+            try
+            {
+                await SetAsync(id, entity, TimeSpan.FromMinutes(5));
+
+                var cachedNewsList = (await GetAllAsync(constKey)).ToList();
+
+                cachedNewsList.Add(entity);
+
+                await SetListAsync(constKey, cachedNewsList, TimeSpan.FromMinutes(30));
+            }
+            catch (RedisException e)
+            {
+                Debug.WriteLine("Error with caching element");
+                Debug.WriteLine(e.Message);
+            }
         }
 
         public async Task RemoveAsync(long key)

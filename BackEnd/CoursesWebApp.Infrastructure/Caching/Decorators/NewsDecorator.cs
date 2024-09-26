@@ -24,37 +24,20 @@ public class NewsDecorator : IRepository<NewsEntity>, IReadOnlyRepository<NewsEn
         _newsReadOnlyRepository = newsReadOnlyRepository;
     }
 
-    private async Task UpdateCacheAsync(NewsEntity entity)
-    {
-        try
-        {
-            await _redisServices.SetAsync(entity.Id, entity, TimeSpan.FromMinutes(5));
-
-            var cachedNewsList = (await _redisServices.GetAllAsync(AllNewsKey)).ToList();
-
-            cachedNewsList.Add(entity);
-
-            await _redisServices.SetListAsync(AllNewsKey, cachedNewsList, TimeSpan.FromMinutes(30));
-        }
-        catch (RedisException e)
-        {
-            Debug.WriteLine("Error with caching element");
-            Debug.WriteLine(e.Message);
-        }
-    }
+    
 
     public async Task CreateAsync(NewsEntity entity)
     {
         await _newsRepository.CreateAsync(entity);
 
-        await UpdateCacheAsync(entity);
+        await _redisServices.UpdateCacheAsync(entity.Id, entity, AllNewsKey);
     }
 
     public async Task UpdateAsync(NewsEntity entity)
     {
         await _newsRepository.UpdateAsync(entity);
 
-        await UpdateCacheAsync(entity);
+        await _redisServices.UpdateCacheAsync(entity.Id, entity, AllNewsKey);
     }
 
     public async Task DeleteAsync(long id)

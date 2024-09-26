@@ -19,34 +19,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewsDecorator.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAmwG0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T08:48:09.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRedisService.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Abstract\\IRedisService.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Caching\\Abstract\\IRedisService.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Abstract\\IRedisService.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Caching\\Abstract\\IRedisService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T08:34:10.035Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -61,13 +35,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsDecorator.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T08:48:09.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRedisService.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Abstract\\IRedisService.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Caching\\Abstract\\IRedisService.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Abstract\\IRedisService.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Caching\\Abstract\\IRedisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T08:34:10.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "RedisService.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\RedisServices\\RedisService.cs",
               "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Caching\\RedisServices\\RedisService.cs",
               "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\RedisServices\\RedisService.cs",
               "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Caching\\RedisServices\\RedisService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T15:34:11.24Z",
               "EditorCaption": ""

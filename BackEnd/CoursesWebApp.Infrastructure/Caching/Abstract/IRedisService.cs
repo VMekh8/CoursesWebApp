@@ -10,5 +10,7 @@ public interface IRedisService<T> where T : class
 
     Task SetListAsync(string key, IEnumerable<T> value, TimeSpan? expiration = null);
 
+    Task UpdateCacheAsync(long id, T entity, string constKey);
+
     Task RemoveAsync(long key);
 }
