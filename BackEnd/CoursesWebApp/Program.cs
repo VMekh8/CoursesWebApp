@@ -61,7 +61,20 @@ builder.Services.AddScoped<IReadOnlyRepository<TeacherEntity>, TeacherService>()
 builder.Services.Decorate<IRepository<TeacherEntity>, TeacherDecorator>();
 builder.Services.Decorate<IReadOnlyRepository<TeacherEntity>, TeacherDecorator>();
 
+
+builder.Services.AddScoped<IRepository<CourseEntity>, CourseService>();
+builder.Services.AddScoped<IReadOnlyRepository<CourseEntity>, CourseService>();
+
+builder.Services.Decorate<IRepository<CourseEntity>, CourseDecorator>();
+builder.Services.Decorate<IReadOnlyRepository<CourseEntity>, CourseDecorator>();
+
+
+builder.Services.AddResponseCompression();
+
+
 var app = builder.Build();
+
+app.UseResponseCompression();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
