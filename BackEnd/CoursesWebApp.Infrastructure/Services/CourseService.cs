@@ -1,5 +1,4 @@
-﻿using CoursesWebApp.Application.Abstract.CourseInterfaces;
-using CoursesWebApp.Application.Abstract.CRUD;
+﻿using CoursesWebApp.Application.Abstract.CRUD;
 using CoursesWebApp.Domain.Entities;
 using CoursesWebApp.Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace CoursesWebApp.Infrastructure.Services;
 
 public class CourseService(DBCoursesContext context)
-    : IRepository<CourseEntity>, IReadOnlyRepository<CourseEntity>, ICourseRepository
+    : IRepository<CourseEntity>, IReadOnlyRepository<CourseEntity>
 {
     public async Task CreateAsync(CourseEntity entity)
     {
@@ -50,20 +49,8 @@ public class CourseService(DBCoursesContext context)
     {
         return await context.Courses
             .AsNoTracking()
-            .FirstOrDefaultAsync(u => u.Id == id);
-    }
-
-    public async Task<CourseEntity?> GetCourseWithStudentsTask(long id)
-    {
-        return await context.Courses
             .Include(c => c.Enrollments)
-            .FirstOrDefaultAsync(c => c.Id == id);
-    }
-
-    public async Task<CourseEntity?> GetCourseWithTeachersAsync(long id)
-    {
-        return await context.Courses
             .Include(c => c.Teachers)
-            .FirstOrDefaultAsync(c => c.Id == id);
+            .FirstOrDefaultAsync(u => u.Id == id);
     }
 }
