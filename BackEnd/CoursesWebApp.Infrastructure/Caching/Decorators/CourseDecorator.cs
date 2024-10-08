@@ -65,7 +65,7 @@ public class CourseDecorator : IRepository<CourseEntity>, IReadOnlyRepository<Co
 
         return cachedCourses;
     }
-
+    
     public async Task<CourseEntity?> GetByIdAsync(long id)
     {
         var cachedCourse = await _redisService.GetAsync(id);

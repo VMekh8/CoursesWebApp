@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\" />
+    <Folder Include="UseCases\Abstract\" />
   </ItemGroup>
 
 </Project>

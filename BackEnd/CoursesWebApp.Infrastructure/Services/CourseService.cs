@@ -49,6 +49,7 @@ public class CourseService(DBCoursesContext context)
     {
         return await context.Courses
             .AsNoTracking()
+            .Include(c => c.Lessons)
             .Include(c => c.Enrollments)
             .Include(c => c.Teachers)
             .FirstOrDefaultAsync(u => u.Id == id);
