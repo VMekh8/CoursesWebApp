@@ -3,15 +3,21 @@
 public abstract class BaseUseCase<T> where T : class
 {
     
-    public virtual Task Create() => Task.CompletedTask;
+    public virtual Task Create() => 
+        throw new NotImplementedException("Should be overrided");
 
-    public virtual Task CreateWithCourse(T entity, long courseId) => Task.CompletedTask;
+    public virtual Task CreateWithCourse(T entity, long courseId) =>
+        throw new NotImplementedException("Should be overrided");
 
-    public virtual Task Update(T entity, long? courseId) => Task.CompletedTask;
+    public virtual Task Update(T entity, long? courseId) => 
+        throw new NotImplementedException("Should be overrided");
 
-    public virtual Task Remove(T entity) => Task.CompletedTask;
+    public virtual Task Remove(T entity) => 
+        throw new NotImplementedException("Should be overrided");
 
-    public virtual Task Get() => Task.CompletedTask;
+    public virtual Task<IEnumerable<T>> Get() => 
+        throw new NotImplementedException("Should be overrided");
 
-    public virtual Task GetById(long id) => Task.CompletedTask;
+    public virtual Task<T?> GetById(long id) => 
+        throw new NotImplementedException("Should be overrided");
 }
