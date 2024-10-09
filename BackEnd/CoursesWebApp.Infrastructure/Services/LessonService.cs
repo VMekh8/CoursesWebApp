@@ -47,7 +47,6 @@ public class LessonService(DBCoursesContext context) : IRepository<LessonEntity>
     public async Task<LessonEntity?> GetByIdAsync(long id)
     {
         return await context.Lessons
-            .AsNoTracking()
             .Include(l => l.Course)
             .FirstOrDefaultAsync(l => l.Id == id);
     }
