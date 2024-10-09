@@ -26,4 +26,9 @@
     <ProjectReference Include="..\CoursesWebApp.Domain\CoursesWebApp.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UseCases\LessonUseCase\" />
+    <Folder Include="UseCases\Dependencies\" />
+  </ItemGroup>
+
 </Project>
