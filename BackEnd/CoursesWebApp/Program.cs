@@ -1,4 +1,5 @@
 using CoursesWebApp.Application.Abstract.CRUD;
+using CoursesWebApp.Application.UseCases.Dependencies;
 using CoursesWebApp.Domain.Entities;
 using CoursesWebApp.Infrastructure.Caching.Abstract;
 using CoursesWebApp.Infrastructure.Caching.Decorators;
@@ -67,6 +68,8 @@ builder.Services.AddScoped<IReadOnlyRepository<CourseEntity>, CourseService>();
 
 builder.Services.Decorate<IRepository<CourseEntity>, CourseDecorator>();
 builder.Services.Decorate<IReadOnlyRepository<CourseEntity>, CourseDecorator>();
+
+builder.Services.AddUseCasesDependency();
 
 
 builder.Services.AddResponseCompression();
