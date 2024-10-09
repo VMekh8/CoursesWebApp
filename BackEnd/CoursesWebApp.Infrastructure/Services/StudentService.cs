@@ -48,5 +48,6 @@ public class StudentService(DBCoursesContext context) : IRepository<StudentEntit
         await context.Students
             .Where(e => e.Id == id)
             .AsNoTracking()
+            .Include(s => s.Enrollments)
             .FirstOrDefaultAsync();
 }

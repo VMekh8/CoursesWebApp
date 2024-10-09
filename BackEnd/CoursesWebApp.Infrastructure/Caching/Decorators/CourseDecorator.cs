@@ -1,28 +1,24 @@
-﻿using CoursesWebApp.Application.Abstract.CourseInterfaces;
-using CoursesWebApp.Application.Abstract.CRUD;
+﻿using CoursesWebApp.Application.Abstract.CRUD;
 using CoursesWebApp.Domain.Entities;
 using CoursesWebApp.Infrastructure.Caching.Abstract;
 
 namespace CoursesWebApp.Infrastructure.Caching.Decorators;
 
-public class CourseDecorator : IRepository<CourseEntity>, IReadOnlyRepository<CourseEntity>, ICourseRepository
+public class CourseDecorator : IRepository<CourseEntity>, IReadOnlyRepository<CourseEntity>
 {
     private const string AllCourseKey = "all_courses";
 
     private readonly IRepository<CourseEntity> _repository;
-    private readonly ICourseRepository _courseRepository;
     private readonly IReadOnlyRepository<CourseEntity> _readOnlyRepository;
     private readonly IRedisService<CourseEntity> _redisService;
 
 
     public CourseDecorator(
-        IRepository<CourseEntity> repository, 
-        ICourseRepository courseRepository, 
-        IReadOnlyRepository<CourseEntity> readOnlyRepository, 
+        IRepository<CourseEntity> repository,
+        IReadOnlyRepository<CourseEntity> readOnlyRepository,
         IRedisService<CourseEntity> redisService)
     {
         _repository = repository;
-        _courseRepository = courseRepository;
         _readOnlyRepository = readOnlyRepository;
         _redisService = redisService;
     }
@@ -69,7 +65,7 @@ public class CourseDecorator : IRepository<CourseEntity>, IReadOnlyRepository<Co
 
         return cachedCourses;
     }
-
+    
     public async Task<CourseEntity?> GetByIdAsync(long id)
     {
         var cachedCourse = await _redisService.GetAsync(id);
@@ -89,15 +85,5 @@ public class CourseDecorator : IRepository<CourseEntity>, IReadOnlyRepository<Co
         }
 
         return cachedCourse;
-    }
-
-    public async Task<CourseEntity?> GetCourseWithStudentsTask(long id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<CourseEntity?> GetCourseWithTeachersAsync(long id)
-    {
-        throw new NotImplementedException();
     }
 }
