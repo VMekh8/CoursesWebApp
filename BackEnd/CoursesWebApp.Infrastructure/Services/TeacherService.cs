@@ -25,7 +25,8 @@ public class TeacherService(DBCoursesContext context) : IRepository<TeacherEntit
                     .SetProperty(u => u.AboutTeacher, entity.AboutTeacher)
                     .SetProperty(u => u.Email, entity.Email)
                     .SetProperty(u => u.PasswordHash, entity.PasswordHash)
-                    .SetProperty(u => u.ImageURL, entity.ImageURL));
+                    .SetProperty(u => u.ImageURL, entity.ImageURL)
+                    .SetProperty(u => u.Courses, entity.Courses));
 
         await context.SaveChangesAsync();
     }
@@ -49,7 +50,7 @@ public class TeacherService(DBCoursesContext context) : IRepository<TeacherEntit
     public async Task<TeacherEntity?> GetByIdAsync(long id)
     {
         return await context.Teachers
-            .AsNoTracking()
+            .Include(t => t.Courses)
             .FirstOrDefaultAsync(t => t.Id == id);
 
     }

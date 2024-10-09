@@ -48,7 +48,6 @@ public class CourseService(DBCoursesContext context)
     public async Task<CourseEntity?> GetByIdAsync(long id)
     {
         return await context.Courses
-            .AsNoTracking()
             .Include(c => c.Lessons)
             .Include(c => c.Enrollments)
             .Include(c => c.Teachers)
