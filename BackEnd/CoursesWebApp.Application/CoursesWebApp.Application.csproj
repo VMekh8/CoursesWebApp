@@ -26,8 +26,4 @@
     <ProjectReference Include="..\CoursesWebApp.Domain\CoursesWebApp.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UseCases\Abstract\" />
-  </ItemGroup>
-
 </Project>
