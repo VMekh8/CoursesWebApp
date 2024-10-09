@@ -22,6 +22,7 @@ public class LessonService(DBCoursesContext context) : IRepository<LessonEntity>
                 .SetProperty(u => u.Title, entity.Title)
                 .SetProperty(u => u.LessonText, entity.LessonText)
                 .SetProperty(u => u.VideoURL, entity.VideoURL)
+                .SetProperty(u => u.Course, entity.Course)
             );
 
         await context.SaveChangesAsync();
@@ -47,6 +48,7 @@ public class LessonService(DBCoursesContext context) : IRepository<LessonEntity>
     {
         return await context.Lessons
             .AsNoTracking()
+            .Include(l => l.Course)
             .FirstOrDefaultAsync(l => l.Id == id);
     }
 }
