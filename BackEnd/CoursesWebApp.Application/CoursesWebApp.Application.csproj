@@ -28,7 +28,6 @@
 
   <ItemGroup>
     <Folder Include="UseCases\Abstract\" />
-    <Folder Include="UseCases\NewsUseCases\" />
   </ItemGroup>
 
 </Project>
