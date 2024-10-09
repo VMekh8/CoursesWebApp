@@ -43,7 +43,6 @@ namespace CoursesWebApp.Infrastructure.Services
 
         public async Task<NewsEntity?> GetByIdAsync(long id) => 
             await context.News
-                .AsNoTracking()
                 .FirstOrDefaultAsync(n => n.Id == id);
     }
 }
