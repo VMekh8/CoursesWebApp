@@ -4,7 +4,7 @@ using CoursesWebApp.Domain.Entities;
 
 namespace CoursesWebApp.Application.UseCases.CoursesUseCases;
 
-public class CreateCourseUseCase : CoursesBaseUseCase
+public class CreateCourseUseCase : CoursesUseCase
 {
 
     private readonly IRepository<CourseEntity> _repository;

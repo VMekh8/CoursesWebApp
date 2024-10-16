@@ -2,7 +2,7 @@
 
 namespace CoursesWebApp.Application.UseCases.Abstract;
 
-public abstract class LessonBaseUseCases : BaseUseCase<LessonEntity>
+public abstract class LessonUseCases : UseCase<LessonEntity>
 {
 
     public virtual Task Create(LessonEntity entity, long CourseId) =>

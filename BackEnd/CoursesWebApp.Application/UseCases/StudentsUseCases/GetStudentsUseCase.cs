@@ -4,7 +4,7 @@ using CoursesWebApp.Domain.Entities;
 
 namespace CoursesWebApp.Application.UseCases.StudentsUseCases;
 
-public class GetStudentsUseCase : BaseUseCase<StudentEntity>
+public class GetStudentsUseCase : UseCase<StudentEntity>
 {
     
     private readonly IReadOnlyRepository<StudentEntity> _studentsRepository;

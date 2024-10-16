@@ -2,7 +2,7 @@
 
 namespace CoursesWebApp.Application.UseCases.Abstract;
 
-public abstract class CoursesBaseUseCase : BaseUseCase<CourseEntity>
+public abstract class CoursesUseCase : UseCase<CourseEntity>
 {
     public virtual Task CreateEnrollment(long StudentId, long CoursesId) =>
         throw new NotImplementedException("Should be overridden");

@@ -1,21 +1,28 @@
 ﻿using CoursesWebApp.Application.Abstract.CRUD;
 using CoursesWebApp.Application.UseCases.Abstract;
+using CoursesWebApp.Application.UseCases.CoursesUseCases;
 using CoursesWebApp.Domain.Entities;
 
 namespace CoursesWebApp.Application.UseCases.LessonUseCase;
 
-public class CreateLessonUseCase : LessonBaseUseCases
+public class CreateLessonUseCase : LessonUseCases
 {
 
     private readonly IRepository<LessonEntity> _repository;
+    private readonly GetCourseByIdUseCase _getCourse;
 
-    public CreateLessonUseCase(IRepository<LessonEntity> repository)
+    public CreateLessonUseCase(IRepository<LessonEntity> repository, GetCourseByIdUseCase getCourse)
     {
         _repository = repository;
+        _getCourse = getCourse;
     }
 
     public override async Task Create(LessonEntity entity, long CourseId)
     {
+        var course = await _getCourse.GetById(CourseId);
 
+        entity.Course = course;
+
+        await _repository.CreateAsync(entity);
     }
 }

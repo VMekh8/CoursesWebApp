@@ -4,7 +4,7 @@ using CoursesWebApp.Domain.Entities;
 
 namespace CoursesWebApp.Application.UseCases.NewsUseCases;
 
-public class RemoveNewsUseCase :BaseUseCase<NewsEntity>
+public class RemoveNewsUseCase : UseCase<NewsEntity>
 {
 
     private readonly IRepository<NewsEntity> _repository;

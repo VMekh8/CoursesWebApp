@@ -1,10 +1,10 @@
 ﻿using CoursesWebApp.Application.Abstract.CRUD;
-using CoursesWebApp.Application.UseCases.Abstract;
 using CoursesWebApp.Domain.Entities;
+using CoursesWebApp.Application.UseCases.Abstract;
 
 namespace CoursesWebApp.Application.UseCases.CoursesUseCases;
 
-public class CourseUpdateUseCase : CoursesBaseUseCase
+public class CourseUpdateUseCase : CoursesUseCase
 {
 
     private readonly IRepository<CourseEntity> _repository;
