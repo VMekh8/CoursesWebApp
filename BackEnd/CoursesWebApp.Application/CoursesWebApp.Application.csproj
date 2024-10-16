@@ -27,7 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="UseCases\LessonUseCase\" />
     <Folder Include="UseCases\Dependencies\" />
   </ItemGroup>
 
