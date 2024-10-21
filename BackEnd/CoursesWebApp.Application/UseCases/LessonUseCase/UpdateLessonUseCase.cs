@@ -5,7 +5,7 @@ using CoursesWebApp.Domain.Entities;
 
 namespace CoursesWebApp.Application.UseCases.LessonUseCase;
 
-public class UpdateLessonUseCase : LessonUseCases
+public class UpdateLessonUseCase : Abstract.LessonUseCase
 {
     private readonly IRepository<LessonEntity> _repository;
     private readonly GetCourseByIdUseCase _getCourse;

@@ -3,68 +3,25 @@
   "WorkspaceRootPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\studentsusecases\\studentremoveusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\teacherusecases\\getteacherbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\studentsusecases\\studentupdateusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\teacherusecases\\getteachersusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\studentsusecases\\studentcreateusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\teacherusecases\\removeteacherusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\studentsusecases\\getstudentsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\teacherusecases\\updateteacherusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\studentsusecases\\getstudentbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\teacherusecases\\createteacherusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\newsusecases\\updatenewsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\newsusecases\\removenewsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\newsusecases\\getnewsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\newsusecases\\getnewsbyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\newsusecases\\createnewsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\coursesusecases\\removecourseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\coursesusecases\\getcoursesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\abstract\\teacherusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\coursesusecases\\getcoursebyidusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\coursesusecases\\createcourseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\coursesusecases\\courseupdateusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\abstract\\usecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\abstract\\teacherusecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\abstract\\lessonusecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\abstract\\coursesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\lessonusecase\\createlessonusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C72E10B6-60A6-4F0C-89FD-1D00AD2E75C1}|CoursesWebApp.API.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C72E10B6-60A6-4F0C-89FD-1D00AD2E75C1}|CoursesWebApp.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,229 +31,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentRemoveUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentRemoveUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentRemoveUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentRemoveUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentRemoveUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:22:02.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentUpdateUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentUpdateUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentUpdateUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentUpdateUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentUpdateUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:58.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentCreateUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentCreateUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentCreateUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentCreateUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\StudentCreateUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:55.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetStudentsUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\GetStudentsUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\GetStudentsUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\GetStudentsUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\GetStudentsUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:51.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetStudentByIdUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\GetStudentByIdUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\GetStudentByIdUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\GetStudentByIdUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\StudentsUseCases\\GetStudentByIdUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:45.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateNewsUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\UpdateNewsUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\UpdateNewsUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\UpdateNewsUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\UpdateNewsUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:37.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetNewsUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\GetNewsUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\GetNewsUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\GetNewsUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\GetNewsUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:29.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetNewsByIdUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\GetNewsByIdUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\GetNewsByIdUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\GetNewsByIdUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\GetNewsByIdUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:24.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateNewsUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\CreateNewsUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\CreateNewsUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\CreateNewsUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\CreateNewsUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:17.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RemoveCourseUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\RemoveCourseUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\RemoveCourseUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\RemoveCourseUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\RemoveCourseUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:07.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetCoursesUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\GetCoursesUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\GetCoursesUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\GetCoursesUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\GetCoursesUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:21:03.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateCourseUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\CreateCourseUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\CreateCourseUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\CreateCourseUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\CreateCourseUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:17:10.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CourseUpdateUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\CourseUpdateUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\CourseUpdateUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\CourseUpdateUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\CourseUpdateUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:17:09.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RemoveNewsUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\RemoveNewsUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\RemoveNewsUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\RemoveNewsUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\NewsUseCases\\RemoveNewsUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:16:50.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TeacherUseCases.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\TeacherUseCases.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\TeacherUseCases.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\TeacherUseCases.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\TeacherUseCases.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:16:06.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CoursesUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\CoursesUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\CoursesUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\CoursesUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\CoursesUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:15:31.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LessonUseCases.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\LessonUseCases.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\LessonUseCases.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\LessonUseCases.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\LessonUseCases.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:15:09.904Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -311,54 +47,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
+              "Title": "GetTeacherByIdUseCase.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\GetTeacherByIdUseCase.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\GetTeacherByIdUseCase.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\GetTeacherByIdUseCase.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\GetTeacherByIdUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:25:35.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetTeachersUseCase.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\GetTeachersUseCase.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\GetTeachersUseCase.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\GetTeachersUseCase.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\GetTeachersUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:24:16.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RemoveTeacherUseCase.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\RemoveTeacherUseCase.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\RemoveTeacherUseCase.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\RemoveTeacherUseCase.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\RemoveTeacherUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:21:24.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateTeacherUseCase.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\UpdateTeacherUseCase.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\UpdateTeacherUseCase.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\UpdateTeacherUseCase.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\UpdateTeacherUseCase.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:11:16.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GetCourseByIdUseCase.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\GetCourseByIdUseCase.cs",
               "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\GetCourseByIdUseCase.cs",
               "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\GetCourseByIdUseCase.cs",
               "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\GetCourseByIdUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:39:31.718Z",
+              "WhenOpened": "2024-10-21T13:30:39.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\UseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\UseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\UseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\UseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TeacherUseCase.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\TeacherUseCase.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\TeacherUseCase.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Abstract\\TeacherUseCase.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\Abstract\\TeacherUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:38:50.817Z",
+              "WhenOpened": "2024-10-21T12:50:15.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CreateLessonUseCase.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\LessonUseCase\\CreateLessonUseCase.cs",
-              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\LessonUseCase\\CreateLessonUseCase.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\LessonUseCase\\CreateLessonUseCase.cs",
-              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\LessonUseCase\\CreateLessonUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CreateTeacherUseCase.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\CreateTeacherUseCase.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\CreateTeacherUseCase.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\CreateTeacherUseCase.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\TeacherUseCases\\CreateTeacherUseCase.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:35:42.322Z",
+              "WhenOpened": "2024-10-21T12:48:33.961Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAFEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T20:59:15.747Z"
             }
           ]
         }
