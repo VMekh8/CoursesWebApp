@@ -1,8 +1,7 @@
 ﻿namespace CoursesWebApp.Application.UseCases.Abstract;
 
-public abstract class BaseUseCase<T> where T : class
+public abstract class UseCase<T> where T : class
 {
-    
     public virtual Task Create(T entity) => 
         throw new NotImplementedException("Should be overridden");
 

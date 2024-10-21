@@ -4,7 +4,7 @@ using CoursesWebApp.Domain.Entities;
 
 namespace CoursesWebApp.Application.UseCases.NewsUseCases;
 
-public class GetNewsByIdUseCase : BaseUseCase<NewsEntity>
+public class GetNewsByIdUseCase : UseCase<NewsEntity>
 {
     private readonly IReadOnlyRepository<NewsEntity> _newOnlyRepository;
 
