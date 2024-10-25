@@ -29,8 +29,7 @@ public class AddEnrollmentUseCase : CoursesUseCase
 
         await _enrollmentRepo.AddNewEnrollmentAsync(new EnrollmentEntity(student, course));
     }
-
-
+    
     private void IsNull<T>(T entity)
     {
         if (entity is null)
