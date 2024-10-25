@@ -16,5 +16,6 @@ public class GetTeacherByIdUseCase : TeacherUseCase
     public override async Task<TeacherEntity?> GetById(long id)
     {
         return await _readOnlyRepository.GetByIdAsync(id);
-    }
+    } 
+    
 }
