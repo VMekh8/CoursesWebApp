@@ -1,4 +1,5 @@
 using CoursesWebApp.Application.Abstract.CRUD;
+using CoursesWebApp.Application.Abstract.Enrollment;
 using CoursesWebApp.Application.UseCases.Dependencies;
 using CoursesWebApp.Domain.Entities;
 using CoursesWebApp.Infrastructure.Caching.Abstract;
@@ -68,6 +69,8 @@ builder.Services.AddScoped<IReadOnlyRepository<CourseEntity>, CourseService>();
 
 builder.Services.Decorate<IRepository<CourseEntity>, CourseDecorator>();
 builder.Services.Decorate<IReadOnlyRepository<CourseEntity>, CourseDecorator>();
+
+builder.Services.AddScoped<IEnrollmentRepository, EnrollmentService>();
 
 builder.Services.AddUseCasesDependency();
 

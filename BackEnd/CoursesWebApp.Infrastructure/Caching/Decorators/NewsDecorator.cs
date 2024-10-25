@@ -1,8 +1,6 @@
-﻿using System.Diagnostics;
-using CoursesWebApp.Application.Abstract.CRUD;
+﻿using CoursesWebApp.Application.Abstract.CRUD;
 using CoursesWebApp.Domain.Entities;
 using CoursesWebApp.Infrastructure.Caching.Abstract;
-using StackExchange.Redis;
 
 namespace CoursesWebApp.Infrastructure.Caching.Decorators;
 
