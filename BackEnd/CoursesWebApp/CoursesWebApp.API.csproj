@@ -33,6 +33,7 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="DTO\Request\StudentDTO\" />
     <Folder Include="DTO\Request\NewsDTO\" />
     <Folder Include="DTO\Responce\NewsDTO\" />
   </ItemGroup>
