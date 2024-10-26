@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\coursesusecases\\entrollmentsusecases\\removeenrollmentusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7D04173-4BC1-494B-9CC9-4E3EFAFDF131}|..\\CoursesWebApp.Application\\CoursesWebApp.Application.csproj|f:\\projects\\courseswebapp\\backend\\courseswebapp.application\\usecases\\coursesusecases\\entrollmentsusecases\\addenrollmentusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +45,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "RemoveEnrollmentUseCase.cs",
+              "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\EntrollmentsUseCases\\RemoveEnrollmentUseCase.cs",
+              "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\EntrollmentsUseCases\\RemoveEnrollmentUseCase.cs",
+              "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\EntrollmentsUseCases\\RemoveEnrollmentUseCase.cs",
+              "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\EntrollmentsUseCases\\RemoveEnrollmentUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T20:27:39.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "NewsDecorator.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
               "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
@@ -50,12 +66,11 @@
               "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\NewsDecorator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:17:02.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T17:17:02.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UseCaseDependency.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\Dependencies\\UseCaseDependency.cs",
               "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\Dependencies\\UseCaseDependency.cs",
@@ -63,12 +78,11 @@
               "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\Dependencies\\UseCaseDependency.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:44:18.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T16:44:18.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CourseDecorator.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\CourseDecorator.cs",
               "RelativeDocumentMoniker": "..\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\CourseDecorator.cs",
@@ -76,12 +90,11 @@
               "RelativeToolTip": "..\\CoursesWebApp.Infrastructure\\Caching\\Decorators\\CourseDecorator.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwEIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:15:42.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T15:15:42.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -89,18 +102,17 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAAAEgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:15:26.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T15:15:26.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddEnrollmentUseCase.cs",
               "DocumentMoniker": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\EntrollmentsUseCases\\AddEnrollmentUseCase.cs",
               "RelativeDocumentMoniker": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\EntrollmentsUseCases\\AddEnrollmentUseCase.cs",
               "ToolTip": "F:\\Projects\\CoursesWebApp\\BackEnd\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\EntrollmentsUseCases\\AddEnrollmentUseCase.cs",
               "RelativeToolTip": "..\\CoursesWebApp.Application\\UseCases\\CoursesUseCases\\EntrollmentsUseCases\\AddEnrollmentUseCase.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T15:14:19.551Z",
               "EditorCaption": ""
